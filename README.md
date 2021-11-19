@@ -2,6 +2,7 @@
 Provides weather data of regions based on given parameter through api.
 
 ****Setup & Run**
+
     docker build -t weather-app .
     docker-compose up -d
 
