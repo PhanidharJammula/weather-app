@@ -1,0 +1,9 @@
+version: "3"
+services:
+  weather-app:
+    container_name: weather-app
+    image: weather-app
+    restart: always
+    hostname: weather-app-dev
+    ports:
+      - 5000:5000
